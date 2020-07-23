@@ -1,27 +1,34 @@
 # gomobile-ipfs
 
-This repo aims to provide packages for Android, iOS and React-Native that allow one to run and use an IPFS node on mobile devices. It is also a place to discuss the constraints of running IPFS on mobile in order to find solutions and exchange tips.
+This repo aims to provide packages for Android, iOS and React-Native that
+allow one to run and use an IPFS node on mobile devices. It is also a place
+to discuss the constraints of running IPFS on mobile in order to find
+solutions and exchange tips.
 
-_:warning: this repo is still experimental, contributions are very welcome_
+:warning: _this repo is still experimental, contributions are very welcome_
+
+You can check the packages documentation [here](https://ipfs-shipyard.github.io/gomobile-ipfs/).
 
 ## Roadmap
 
-- [x] Basic Java/Swift <-> go-ipfs bindings
-- [ ] InputStream as request body and request response (in progress)
-- [ ] Unit tests using Android/iOS testing frameworks
-- [ ] `SetStreamHandler(protocolID, handler)` and `NewStream(peerID, protocolID)` bindings
-- [ ] Packages built and published using CI
-- [ ] Android/iOS lifecycle management
-- [ ] React-Native module (in progress)
-- [ ] Improve this README
+* [x] Basic Java/Swift <-> go-ipfs bindings
+* [x] Packages built and published using CI
+* [x] Unit tests using Android/iOS testing frameworks
+* [x] Bind node config setters and getters
+* [ ] InputStream as request body and request response (in progress)
+* [ ] React-Native module (in progress)
+* [ ] `SetStreamHandler(protocolID, handler)` and
+`NewStream(peerID, protocolID)` bindings
+* [ ] Android/iOS lifecycle management
+* [ ] Improve this README
 
 ## Build
 
-**TODO**
+TODO
 
 ## Code example
 
-**TODO**
+TODO
 
 ## Lead Maintainers
 
